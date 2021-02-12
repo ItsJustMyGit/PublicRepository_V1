@@ -1,0 +1,181 @@
+html{
+	font-size: 10px;
+}
+
+
+body{
+	font-family: "Lexend Mega", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #333;
+	margin: 0;
+}
+
+
+h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+	font-family: "Anton", sans-serif;
+
+}
+
+
+@media (max-width: 460px){
+	h1{
+		font-size: 3.5rem;
+		line-height: 1.2;
+	}
+}
+
+h2{
+	font-size: 3.25rem;
+}
+
+a{
+	color: #477ca7;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #74638f;
+}
+
+a:hover{
+	color: red;
+	font-weight: bold;
+}
+
+
+
+#main{
+	margin: 0;
+	padding: 15px;
+	background: #111;
+}
+
+
+@media (max-width: 460px){
+	#main{
+		margin: 0;
+	}
+}
+
+.container2{
+	margin: 30px 7px;
+	padding: 15px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: #000;
+}
+
+
+p{
+	color: white;
+}
+
+
+
+#title{
+	color: rgba(245,155,255,0.52);
+}
+
+
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+#img-div{
+	background: #111;
+	padding: 10px;
+	margin: 0;
+}
+
+#img-caption{
+	margin: 15px 0 5px 0;
+	color: white;
+}
+
+@media (max-width: 460px){
+	#img-caption{
+		font-size: 1.4rem;
+	}
+}
+
+.posterbox{
+	margin: 100px auto;
+	width: 90%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.imgbox{
+	width: 250px;
+	margin: 0 10px;
+	box-shadow: 00 20px 20px rgba(0, 0, 0, 0.1);
+	transition: 1s;
+}
+.imgbox .img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.imgbox:hover{
+	transform: scale(1.1);
+}
+
+
+
+#headline{
+	margin: 50px 0;
+	text-align: center;
+	font-size: 2.5rem;
+	color: white;
+}
+
+
+.headline-sub{
+	font-size: 2rem;
+	color: rgb(235, 185, 235);
+}
+
+
+
+ul{
+	max-width: 550px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	line-height: 1.6;
+}
+
+li{
+	margin: 16px 0;
+	color: #fff;
+}
+
+blockquote{
+	font-style: italic;
+	max-width: 545px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+}
+
+
+
+.quotediv{
+	padding: 15px;
+	background-color: #111;
+	color: purple;
+	border: 2px solid #ffa; 
+	border-radius: 10px;
+}
+
+strong{
+	color: #ffdb70;
+}
