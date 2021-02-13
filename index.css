@@ -75,7 +75,6 @@ p{
 }
 
 
-
 #title{
 	color: rgba(245,155,255,0.52);
 }
@@ -130,8 +129,6 @@ img{
 	transform: scale(1.1);
 }
 
-
-
 #headline{
 	margin: 50px 0;
 	text-align: center;
@@ -139,13 +136,10 @@ img{
 	color: white;
 }
 
-
 .headline-sub{
 	font-size: 2rem;
 	color: rgb(235, 185, 235);
 }
-
-
 
 ul{
 	max-width: 550px;
@@ -165,8 +159,6 @@ blockquote{
 	margin: 0 auto 50px auto;
 	text-align: left;
 }
-
-
 
 .quotediv{
 	padding: 15px;
